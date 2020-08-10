@@ -130,7 +130,8 @@ router.delete('/:id', async (req, res) => {
             res.redirect('/');
         }
     }
-})
+});
+
 // function removeBookCover(fileName) {
 //     fs.unlink(path.join(uploadPath, fileName), err => {
 //         if (err) console.error(err);
